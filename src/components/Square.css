@@ -1,0 +1,26 @@
+.square {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .light-square {
+    background-color: #f0d9b5;
+  }
+  
+  .dark-square {
+    background-color: #b58863;
+  }
+  
+  .selected-square {
+    border: 2px solid rgb(255, 255, 255);
+  }
+  
+  .highlighted-square {
+    border: 2px solid yellow;
+    box-sizing: border-box; 
+  }
+  
